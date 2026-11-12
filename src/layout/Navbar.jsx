@@ -6,7 +6,9 @@ export default function Navbar() {
     <div>
         <nav className="navbar md:navbar-expand bg-1 navbar-dark bg-primary">
         <div className="container-fluid">
-            <a className="navbar-brand" href="#">Full Stack App</a>
+            <Link className="navbar-brand" to="/">
+              Full Stack App
+            </Link>
             <button className="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer" data-bs-target="#navbarDrawer" aria-controls="navbarDrawer" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon" aria-hidden="true"></span>
             </button>
